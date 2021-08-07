@@ -1,0 +1,27 @@
+-
+   -
+     "name": "测试部"
+     "name_en": "CSB"
+     "parentid": 2
+     "order": 1
+     "id": 10086
+   - 0
+   - "上送正确数据，创建部门成功，返回errcode：0"
+-
+   -
+     "name": "研发部"
+     "name_en": "YFB"
+     "parentid": 2
+     "order": 2
+     "id": 10086
+   - 60008
+   - "调用创建部门接口，部门ID已存在，返回errcode：60008"
+-
+  -
+    "name": "上海研发中心32u4u35848854u584u43y594378"
+    "name_en": "RDSH"
+    "parentid": 2
+    "order": 3
+    "id": 3
+  - 60001
+  - "上送超长部门名称，返回响应码60001"

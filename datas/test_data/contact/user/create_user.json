@@ -1,0 +1,21 @@
+{
+    "userid": "{{userid}}",
+    "name": "{{name}}",
+    "alias": "{{alias}}",
+    "mobile": "{{mobile}}",
+    "department": {{department}},
+    "order":"{{order}}",
+    "position": "{{position}}",
+    "gender": "{{gender}}",
+    "email": "{{email}}",
+    "is_leader_in_dept": [{{is_leader_in_dept}}],
+    "enable":"{{enable}}",
+    "avatar_mediaid": "{{avatar_mediaid}}",
+    "telephone": "{{telephone}}",
+    "address": "{{address}}",
+    "main_department": "{{main_department}}",
+    "extattr": [{{extattr}}],
+    "to_invite": "{{to_invite}}",
+    "external_position": "{{external_position}}",
+    "external_profile": "{{external_profile}}"
+}

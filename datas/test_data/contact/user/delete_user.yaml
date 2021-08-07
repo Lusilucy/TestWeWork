@@ -1,0 +1,20 @@
+delete:
+  -
+    - "DaiShanChu"
+    - 0
+    - "上送正确数据，删除成员成功，返回errcode：0"
+  -
+    - "abc"
+    - 60111
+    - "删除不存在的成员，删除失败，返回错误码：60111"
+  -
+    - "LuSi"
+    - 301005
+    - "删除创建人，删除失败，返回错误码：301005"
+
+create:
+  department: 1
+  is_leader_in_dept: 0
+  mobile: 18888888888
+  name: "待删除"
+  userid: DaiShanChu
