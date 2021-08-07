@@ -1,3 +1,4 @@
+# 封装页面公共方法
 import os
 from datetime import datetime
 

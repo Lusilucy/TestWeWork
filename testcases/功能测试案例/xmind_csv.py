@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-# @File    : xmind_csv.py
-
+# xmind转csv
 from xmindparser import xmind_to_dict
 import csv
 
@@ -67,9 +65,10 @@ class XmindToCsv():
         case_list = self.read_xmind(xmind_file)
         self.write_csv(csv_file, case_list)
 
+
 if __name__ == '__main__':
-    xmind_file = "/Users/mac/Desktop/雪球自选设置.xmind"
-    csv_file = "/Users/mac/Desktop/雪球自选设置.csv"
+    xmind_file = "/Users/lusi/PycharmProjects/TestWeWork/testcases/功能测试案例/企业微信测试案例.xmind"
+    csv_file = "/Users/lusi/PycharmProjects/TestWeWork/testcases/功能测试案例/企业微信测试案例.csv"
     XmindToCsv().main(csv_file, xmind_file)
 
 

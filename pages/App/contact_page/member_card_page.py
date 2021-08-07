@@ -1,3 +1,4 @@
+# 成员详情页面
 from appium.webdriver.common.mobileby import MobileBy
 from selenium.common.exceptions import NoSuchElementException
 
@@ -7,16 +8,16 @@ from pages.App.app import App
 class MemberCard(App):
 
     def click_edit_member(self):
-        self.wait_visibility(MobileBy.XPATH, "//*[@text-xmind-csv='发消息']")
+        self.wait_visibility(MobileBy.XPATH, "//*[@text='发消息']")
         try:
             self.driver.implicitly_wait(0)
-            if self.find(MobileBy.XPATH, "//*[@text-xmind-csv='语音通话']"):
+            if self.find(MobileBy.XPATH, "//*[@text='语音通话']"):
                 self.driver.implicitly_wait(10)
                 # 点击右上角按钮
                 self.find_and_click(MobileBy.ID, 'com.tencent.wework:id/h8g')
                 # 点击编辑成员按钮
-                self.wait_presence(MobileBy.XPATH, '//*[@text-xmind-csv="编辑成员"]')
-                self.find_and_click(MobileBy.XPATH, '//*[@text-xmind-csv="编辑成员"]')
+                self.wait_presence(MobileBy.XPATH, '//*[@text="编辑成员"]')
+                self.find_and_click(MobileBy.XPATH, '//*[@text="编辑成员"]')
                 from pages.App.contact_page.update_member_page import UpdateMember
                 return UpdateMember(self.driver)
         # 增加谨防点进创建人不可删除导致宕机的处理

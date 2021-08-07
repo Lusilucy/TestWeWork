@@ -1,3 +1,4 @@
+# 封装异常
 class MyError(Exception):
     pass
 

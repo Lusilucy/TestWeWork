@@ -1,7 +1,7 @@
+# WeWork公共方法（串联业务流程）
 from pages.API.api import API
 
 
-# WeWork公共方法（串联业务流程）
 class WeWork(API):
     _url = "https://qyapi.weixin.qq.com/cgi-bin"
 

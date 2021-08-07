@@ -1,3 +1,4 @@
+# 打卡-页面
 from pages.App.app import App
 
 
@@ -12,4 +13,4 @@ class PunchClock(App):
         self.find_xtext_click("外出打卡")
         self.find_xtext_click("次外出", True)
 
-        # assert self.find_xtext_ele("外出打卡成功").text-xmind-csv == '外出打卡成功'
+        # assert self.find_xtext_ele("外出打卡成功").text == '外出打卡成功'

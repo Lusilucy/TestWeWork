@@ -1,3 +1,4 @@
+# 封装web公共方法
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
@@ -67,9 +68,9 @@ class Cookies(Base):
         :return: 返回本身
         """
         # 执行shell启动复用浏览器界面
-        # cls.shell(cls, './launch_web.sh')
+        # cls.shell(cls, './launch_chrome.sh')
         # import os
-        # os.system("./launch_web.sh")
+        # os.system("./launch_chrome.sh")
         # todo 在pycharm中执行shell文件未在本地启动复用浏览器，在terminal中进入python执行shell文件可用（是pycharm问题？）
 
         # 复用浏览器

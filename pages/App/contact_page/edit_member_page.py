@@ -1,3 +1,4 @@
+# 手动输入添加成员页面
 from selenium.common.exceptions import NoSuchElementException, StaleElementReferenceException
 
 from pages.App.contact_page.add_member_page import AddMember
@@ -5,7 +6,6 @@ from pages.App.app import App
 from utils.utils import Utils
 
 
-# 手动输入添加成员页面
 class EditMember(App):
     eles = Utils.get_data("../../datas/conf_data/eles_data.yaml")['App']['contact']['edit_member']
 
@@ -35,7 +35,7 @@ class EditMember(App):
         :return: 当前页面
         """
         # 判断是否需要点击切换输入方式按钮
-        if self.get_attribute(*self.x_ele(self.eles['change_edit']), 'text-xmind-csv') == which:
+        if self.get_attribute(*self.x_ele(self.eles['change_edit']), 'text') == which:
             self.click_change_edit()
 
         return self
@@ -169,7 +169,7 @@ class EditMember(App):
 
                 choose_department.click_select_button().select_department(department)
 
-                self.waits(*self.x_ele(f"//*[@text-xmind-csv='{department}']"), n=2)
+                self.waits(*self.x_ele(f"//*[@text='{department}']"), n=2)
 
                 self.find_xtext_click(department, 2)
 
@@ -177,14 +177,14 @@ class EditMember(App):
 
             if main_derparment is True:
                 self.find_and_click(*self.x_ele(self.eles['main_department']))
-                self.wait_for_clickble(*self.x_ele("//*[@text-xmind-csv='设置']"))
+                self.wait_for_clickble(*self.x_ele("//*[@text='设置']"))
                 self.find_xtext_click("设置")
 
                 # todo 偶发：如果界面弹出保存本次编辑弹框，点击确定
                 self.driver.implicitly_wait(0)
                 try:
-                    if self.find(*self.x_ele("//*[@text-xmind-csv='保存本次编辑']")):
-                        self.find_and_click(*self.x_ele("//*[@text-xmind-csv='确定']"))
+                    if self.find(*self.x_ele("//*[@text='保存本次编辑']")):
+                        self.find_and_click(*self.x_ele("//*[@text='确定']"))
                 except NoSuchElementException:
                     pass
                 self.driver.implicitly_wait(10)

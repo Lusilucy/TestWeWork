@@ -69,7 +69,7 @@ class App(Base):
         :return: app主页
         """
         self.logging("----------------进入主页----------------")
-        from pages.App.message_page.main_page import MainPage
+        from pages.App.main_page import MainPage
         return MainPage(self.driver)
 
     def x_ele(self, location):
@@ -88,7 +88,7 @@ class App(Base):
         :return: 定位的元素
         """
         self.logging(f"----------------find_by_xpath:{text}----------------")
-        return self.find(MobileBy.XPATH, f"//*[@text-xmind-csv='{text}']")
+        return self.find(MobileBy.XPATH, f"//*[@text='{text}']")
 
     def finds_xtext_ele(self, text):
         """
@@ -97,7 +97,7 @@ class App(Base):
         :return: 包含text属性的元素列表
         """
         self.logging(f"----------------find_by_xpath:{text}----------------")
-        return self.finds(MobileBy.XPATH, f"//*[contains(@text-xmind-csv,'{text}')]")
+        return self.finds(MobileBy.XPATH, f"//*[contains(@text,'{text}')]")
 
     def find_xc_text_ele(self, text):
         """
@@ -106,7 +106,7 @@ class App(Base):
         :return: 定位的元素
         """
         self.logging(f"----------------find_by_xpath_contains:{text}----------------")
-        return self.find(MobileBy.XPATH, f"//*[contains(@text-xmind-csv,'{text}')]")
+        return self.find(MobileBy.XPATH, f"//*[contains(@text,'{text}')]")
 
     def find_xtext_click(self, text, n=1, c=None):
         """
@@ -145,7 +145,7 @@ class App(Base):
         获取toast提示信息
         :return: toast的text属性值
         """
-        return self.get_attribute(*self.x_ele("//*[@class='android.widget.Toast']"), 'text-xmind-csv')
+        return self.get_attribute(*self.x_ele("//*[@class='android.widget.Toast']"), 'text')
 
     def swip_and_find(self, text, fun=None, n=5):
         """
@@ -176,7 +176,7 @@ class App(Base):
 
         for i in range(n):
             try:
-                ele = self.driver.find_element(MobileBy.XPATH, f"//*[@text-xmind-csv='{text}']")
+                ele = self.driver.find_element(MobileBy.XPATH, f"//*[@text='{text}']")
                 have_fun(fun)
                 self.driver.implicitly_wait(10)
                 return ele
@@ -194,7 +194,7 @@ class App(Base):
         self.logging(f"----------------scoll_and_find_by_text:{text}:_and_click----------------")
         return self.driver.find_element(MobileBy.ANDROID_UIAUTOMATOR,
                                         f'new UiScrollable(new UiSelector().scrollable(true).instance(0)).'
-                                        f'scrollIntoView(new UiSelector().text-xmind-csv("{text}").instance(0));').click()
+                                        f'scrollIntoView(new UiSelector().text("{text}").instance(0));').click()
 
     # 选择当前页面成员元素
     def select_member(self, name=None, n=1):
@@ -213,10 +213,10 @@ class App(Base):
                 ele_original1 = self.find(
                     MobileBy.XPATH, "//*[@resource-id='com.tencent.wework:id/b4j']/.."
                                     "//*[@resource-id='com.tencent.wework:id/he1']/android.widget.TextView")
-                if ele1.get_attribute('text-xmind-csv') == ele_original1.get_attribute('text-xmind-csv'):
+                if ele1.get_attribute('text') == ele_original1.get_attribute('text'):
                     print('debug6')
                     element = ele2
-                    if element.get_attribute('text-xmind-csv') == '添加成员':
+                    if element.get_attribute('text') == '添加成员':
                         print('提示⚠️：当前页面无可删除成员，请确认')
                         raise NoneMemberException
                 else:
@@ -233,7 +233,7 @@ class App(Base):
                 break
 
             elif name is not None:
-                if element.get_attribute('text-xmind-csv') != name:
+                if element.get_attribute('text') != name:
                     print('debug8')
                     # 连续第2次删除成员时，检查页面预查询到的成员与待删除成员是否一致，不一致，结束并删除
                     try:
@@ -241,7 +241,7 @@ class App(Base):
                         ele_original2 = self.find(
                             MobileBy.XPATH, "//*[@resource-id='com.tencent.wework:id/b4j']/.."
                                             "//*[@resource-id='com.tencent.wework:id/he1']/android.widget.TextView")
-                        if element.get_attribute('text-xmind-csv') == ele_original2.get_attribute('text-xmind-csv'):
+                        if element.get_attribute('text') == ele_original2.get_attribute('text'):
                             print('debug1')  # 为找到偶发点进创建人bug而打的断点
                             continue
                     except NoSuchElementException:
@@ -273,5 +273,5 @@ class App(Base):
         self.find(
             MobileBy.ANDROID_UIAUTOMATOR,
             f'new UiScrollable(new UiSelector().scrollable(true).'
-            f'instance(0)).scrollIntoView(new UiSelector().text-xmind-csv("{text}").instance(0))')
+            f'instance(0)).scrollIntoView(new UiSelector().text("{text}").instance(0))')
         self.logging(f"scroll_end: {datetime.now().strftime('%Y-%m-%d %H:%M:%S.%f')}")

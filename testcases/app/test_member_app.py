@@ -1,3 +1,4 @@
+# app测试案例-成员
 import allure
 import pytest
 
@@ -75,7 +76,7 @@ class TestWeWork:
 
         with allure.step("验证弹出提示框，提示内容正确"):
             # todo 偶发asssert StaleElementReferenceException元素过期
-            assert self.app.get_attribute(*self.app.x_ele(self.eles['tooltip']), 'text-xmind-csv') in exp_tooltip
+            assert self.app.get_attribute(*self.app.x_ele(self.eles['tooltip']), 'text') in exp_tooltip
 
     # 单个删除成员，并验证通讯录中无已删除成员
     def test_delete_member_scene(self):
@@ -116,7 +117,7 @@ class TestWeWork:
         members = []
         del_message = {}
         for i in range(n):
-            select_name = str(self.app.goto_main().click_contact().select_member().get_attribute('text-xmind-csv'))
+            select_name = str(self.app.goto_main().click_contact().select_member().get_attribute('text'))
             if i == 0:
                 name = None
             else:

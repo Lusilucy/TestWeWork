@@ -1,32 +1,32 @@
+# 封装页面元素定位
 App:
   main:
-    contact: "//*[@text-xmind-csv='通讯录']"
+    contact: "//*[@text='通讯录']"
   contact:
     # 编辑成员界面
     edit_member:
       back: "//*[@class='android.widget.TextView']"
-      change_edit: "//*[@text-xmind-csv='添加成员']/../../../../..//*[@class='android.widget.RelativeLayout']/*[@class='android.widget.TextView']"
-      name: "//*[contains(@text-xmind-csv,'姓名')]/../*[@text-xmind-csv='必填']"
-      area_code: "//*[contains(@text-xmind-csv,'手机')]/..//*[@text-xmind-csv='+86']"
-      mobile: "//*[contains(@text-xmind-csv,'手机')]/..//*[@class='android.widget.EditText']"
-      email: "//*[contains(@text-xmind-csv,'邮箱')]/../*[@text-xmind-csv='选填']"
-      userid: "//*[contains(@text-xmind-csv,'帐号')]/../*[@text-xmind-csv='选填']"
-      alias: "//*[contains(@text-xmind-csv,'别名')]/../*[@text-xmind-csv='选填']"
-      gender_choose: "//*[contains(@text-xmind-csv,'性别')]/..//*[@class='android.widget.LinearLayout']"
-      phone: "//*[contains(@text-xmind-csv,'座机')]/../*[@text-xmind-csv='选填']"
-      address: "//*[contains(@text-xmind-csv,'地址')]/..//*[@text-xmind-csv='选填']"
+      change_edit: "//*[@text='添加成员']/../../../../..//*[@class='android.widget.RelativeLayout']/*[@class='android.widget.TextView']"
+      name: "//*[contains(@text,'姓名')]/../*[@text='必填']"
+      area_code: "//*[contains(@text,'手机')]/..//*[@text='+86']"
+      mobile: "//*[contains(@text,'手机')]/..//*[@class='android.widget.EditText']"
+      email: "//*[contains(@text,'邮箱')]/../*[@text='选填']"
+      userid: "//*[contains(@text,'帐号')]/../*[@text='选填']"
+      alias: "//*[contains(@text,'别名')]/../*[@text='选填']"
+      gender_choose: "//*[contains(@text,'性别')]/..//*[@class='android.widget.LinearLayout']"
+      phone: "//*[contains(@text,'座机')]/../*[@text='选填']"
+      address: "//*[contains(@text,'地址')]/..//*[@text='选填']"
       address_input: "//*[@class='android.widget.EditText']"
-      position: "//*[contains(@text-xmind-csv,'职位')]/../*[@text-xmind-csv='选填']"
-      main_department: "//*[@text-xmind-csv='部门']/..//*[@class='android.widget.ImageView']"
+      position: "//*[contains(@text,'职位')]/../*[@text='选填']"
+      main_department: "//*[@text='部门']/..//*[@class='android.widget.ImageView']"
       department:
         back: "//*[@class='android.widget.TextView']"
-        select: "//*[@text-xmind-csv='选择部门']/../../../../..//*[@class='android.widget.RelativeLayout']"
+        select: "//*[@text='选择部门']/../../../../..//*[@class='android.widget.RelativeLayout']"
         input: "//*[@class='android.widget.EditText']"
         unfold: "//*[@class='android.widget.RelativeLayout']//*[@index=3]"
       # 提示框
       tooltip: "//*[@class='android.widget.TextView']"
       toast: "//*[@class='android.widget.Toast']"
-
 
 
 

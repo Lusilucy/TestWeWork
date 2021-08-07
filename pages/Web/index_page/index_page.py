@@ -1,9 +1,9 @@
+# 首页
 from selenium.webdriver.common.by import By
 
 from pages.Web.web import Web
 
 
-# 主页
 class IndexPage(Web):
     def click_add_member_button(self):
         """

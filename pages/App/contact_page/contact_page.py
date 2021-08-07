@@ -1,3 +1,4 @@
+# 通讯录-页面
 from selenium.common.exceptions import TimeoutException, StaleElementReferenceException
 
 from pages.App.app import App
@@ -45,7 +46,7 @@ class Contact(App):
                     eles = self.finds(
                         *self.x_ele('//*[@resource-id="com.tencent.wework:id/he1"]/android.widget.TextView'))
                     for e in eles:
-                        contacts.append(e.get_attribute('text-xmind-csv'))
+                        contacts.append(e.get_attribute('text'))
                     break
                 except StaleElementReferenceException:
                     print(f'提示⚠️：get_member失败,通讯录页面刷新中')

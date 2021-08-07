@@ -1,10 +1,11 @@
+# 登录页
+
 from selenium.webdriver.common.by import By
 
 from pages.Web.web import Web, Cookies
 from utils.utils import Utils
 
 
-# 登录页
 class LoginPage(Web):
     def __init__(self, driver=None):
         super().__init__(driver)

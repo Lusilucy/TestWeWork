@@ -1,7 +1,7 @@
+# 添加成员页面
 from pages.App.app import App
 
 
-# 添加成员页面
 class AddMember(App):
     def click_manual_add(self):
         """

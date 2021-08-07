@@ -1,3 +1,4 @@
+# 封装接口测试独有方法，使架构更清晰
 from time import sleep
 
 import requests
@@ -5,7 +6,6 @@ import requests
 from pages.base import Base
 
 
-# 封装接口测试独有方法，使架构更清晰
 class API(Base):
     Base.set_log("../../logs/apitest.log")
 

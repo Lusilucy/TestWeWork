@@ -1,3 +1,4 @@
+# 工具类
 import json
 import random
 import yaml
@@ -5,7 +6,6 @@ import pystache
 from faker import Faker
 
 
-# 工具类
 class Utils:
     @classmethod
     def get_data(self, file, context=None):
