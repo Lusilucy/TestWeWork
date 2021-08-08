@@ -7,7 +7,7 @@ from pages.base import Base
 
 
 class API(Base):
-    Base.set_log("../../logs/apitest.log")
+    Base.set_log("./logs/apitest.log")
 
     def request(self, method, url, json=None):
         """
