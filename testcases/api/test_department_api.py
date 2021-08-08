@@ -1,4 +1,6 @@
 # 接口测试案例-部门
+import sys
+sys.path.append("/Users/lusi/.jenkins/workspace/TestWeWork")
 import allure
 import pytest
 
