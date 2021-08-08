@@ -7,11 +7,11 @@ from utils.utils import Utils
 
 
 class TestUserAPI:
-    delete_data = Utils.get_data("../../datas/test_data/contact/user/delete_user.yaml")
+    delete_data = Utils.get_data("./datas/test_data/contact/user/delete_user.yaml")
 
     def setup_class(self):
         # 获取token参数
-        token_data = Utils.get_data("../../datas/conf_data/access_token_api.yaml")
+        token_data = Utils.get_data("./datas/conf_data/access_token_api.yaml")
         corp_id = token_data["ID"]["Test"]
         corp_secret = token_data["SECRET"]["Contact"]
         # 实例化成员类
@@ -52,7 +52,7 @@ class TestUserAPI:
             # "external_position": "一二三四五六七八九十十一十二"
         }
         # todo 优化数据模版
-        create_data = Utils.get_data("../../datas/test_data/contact/user/create_user.json", data)
+        create_data = Utils.get_data("./datas/test_data/contact/user/create_user.json", data)
         print(create_data)
         # 创建成员
         r = self.user.create_user(create_data)
@@ -86,7 +86,7 @@ class TestUserAPI:
     def test_delete_user(self, id, exp_errcode, title):
         if id == "DaiShanChu":
             # 正例预埋数据
-            before_data = Utils.get_data("../../datas/test_data/contact/user/create_user.json", self.delete_data['create'])
+            before_data = Utils.get_data("./datas/test_data/contact/user/create_user.json", self.delete_data['create'])
             r = self.user.create_user(before_data)
             assert r['errcode'] == 0
 
