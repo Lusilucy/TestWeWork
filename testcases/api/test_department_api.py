@@ -2,11 +2,11 @@
 import sys
 import os
 curPath = os.path.abspath(os.path.dirname(__file__))
-# rootPath = os.path.abspath(os.path.dirname(curPath) + os.path.sep + "..")
+rootPath = os.path.abspath(os.path.dirname(curPath) + os.path.sep + "..")
 sys.path.append(curPath)
 import allure
 import pytest
-# sys.path.append(rootPath)
+sys.path.append(rootPath)
 from pages.API.department_api import Department
 from utils.utils import Utils
 print(sys.path)
