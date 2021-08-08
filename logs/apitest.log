@@ -3803,3 +3803,363 @@
 2021-08-07 13:35:01,253 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/user/delete?access_token=5wdDnOi6RU-c5NbEbW-8N7uRJWoIlVNkNajOrAR33ZytLyzvO3JfO1cfIW1ILiHFyFnFti_gJh9x5dbuNccaFhpd3ndJQYgYlHe8KVPK7KGfml27GnH3UkQzTeDy1BeKiEmqt7Tg2LKDtEjOVCwvB6-9ThIENv3Pw9cadKPKaIL9LarUsEH-FUf5JDu_gNzSQAPSBoiDKv4gpNyIlUm7bw&userid=LuSi&debug=1 HTTP/1.1" 200 199
 2021-08-07 13:35:01,256 root INFO base:31 ---------------响应参数---------------
 2021-08-07 13:35:01,256 root INFO base:31 response:{'errcode': 45009, 'errmsg': 'api freq out of limit, hint: [1628314503_197_7febb1d9a84d49d5d8e721a03bdc0493], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=45009'}
+2021-08-09 01:32:04,029 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.address`.
+2021-08-09 01:32:04,033 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `zh_CN`.
+2021-08-09 01:32:04,037 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+2021-08-09 01:32:04,039 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:04,041 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.bank`.
+2021-08-09 01:32:04,042 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2021-08-09 01:32:04,044 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+2021-08-09 01:32:04,044 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:04,048 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.color`.
+2021-08-09 01:32:04,049 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:04,051 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.company`.
+2021-08-09 01:32:04,053 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `zh_CN`.
+2021-08-09 01:32:04,055 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+2021-08-09 01:32:04,056 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:04,057 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.currency`.
+2021-08-09 01:32:04,058 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:04,059 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+2021-08-09 01:32:04,062 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:04,064 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:32:04,064 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.geo`.
+2021-08-09 01:32:04,064 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:04,066 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.internet`.
+2021-08-09 01:32:04,068 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `zh_CN`.
+2021-08-09 01:32:04,071 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:32:04,071 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.job`.
+2021-08-09 01:32:04,073 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `zh_CN`.
+2021-08-09 01:32:04,080 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+2021-08-09 01:32:04,081 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `zh_CN`.
+2021-08-09 01:32:04,084 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.misc`.
+2021-08-09 01:32:04,085 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:04,087 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.person`.
+2021-08-09 01:32:04,091 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `zh_CN`.
+2021-08-09 01:32:04,103 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+2021-08-09 01:32:04,106 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+2021-08-09 01:32:04,108 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:32:04,108 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:32:04,109 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+2021-08-09 01:32:04,112 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `zh_CN`.
+2021-08-09 01:32:04,129 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:32:04,144 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2021-08-09 01:32:04,148 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2021-08-09 01:32:04,161 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2021-08-09 01:32:04,163 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2021-08-09 01:32:04,163 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2021-08-09 01:32:04,165 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2021-08-09 01:32:04,166 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2021-08-09 01:32:04,167 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2021-08-09 01:32:04,167 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2021-08-09 01:32:04,168 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2021-08-09 01:32:04,169 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2021-08-09 01:32:04,171 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2021-08-09 01:32:04,172 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2021-08-09 01:32:04,173 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2021-08-09 01:32:04,173 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2021-08-09 01:32:04,174 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2021-08-09 01:32:04,175 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2021-08-09 01:32:04,177 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2021-08-09 01:32:04,178 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:32:04,178 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2021-08-09 01:32:04,179 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2021-08-09 01:32:04,179 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2021-08-09 01:32:04,181 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2021-08-09 01:32:04,183 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:32:04,183 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2021-08-09 01:32:04,185 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2021-08-09 01:32:04,187 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2021-08-09 01:32:04,189 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2021-08-09 01:32:04,215 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2021-08-09 01:32:04,216 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2021-08-09 01:32:04,216 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2021-08-09 01:32:04,220 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2021-08-09 01:32:04,251 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2021-08-09 01:32:04,255 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2021-08-09 01:32:04,258 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:32:04,258 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:32:04,258 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2021-08-09 01:32:04,262 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2021-08-09 01:32:04,267 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:32:04,270 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:04,271 root INFO base:32 method:get,url:https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=ww52221eaa06300fdb&corpsecret=eeitMK8AjTs1YVP4S1mWLSPyu8BFpkjJ85S2WkdnaX8
+2021-08-09 01:32:04,271 root INFO base:32 data:None
+2021-08-09 01:32:04,291 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:04,640 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww52221eaa06300fdb&corpsecret=eeitMK8AjTs1YVP4S1mWLSPyu8BFpkjJ85S2WkdnaX8 HTTP/1.1" 200 277
+2021-08-09 01:32:04,642 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:04,642 root INFO base:32 response:{'errcode': 0, 'errmsg': 'ok', 'access_token': 'Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w', 'expires_in': 7200}
+2021-08-09 01:32:05,647 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:05,647 root INFO base:32 method:get,url:https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=10086&debug=1
+2021-08-09 01:32:05,647 root INFO base:32 data:None
+2021-08-09 01:32:05,650 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:05,995 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=10086&debug=1 HTTP/1.1" 200 194
+2021-08-09 01:32:05,998 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:05,998 root INFO base:32 response:{'errcode': 60123, 'errmsg': 'invalid party id, hint: [1628443926_197_b3727fef66cdbb9f2bd1f0b81050872e], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=60123'}
+2021-08-09 01:32:07,000 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:07,001 root INFO base:32 method:post,url:https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1
+2021-08-09 01:32:07,001 root INFO base:32 data:{'name': '测试部', 'name_en': 'CSB', 'parentid': 2, 'order': 1, 'id': 10086}
+2021-08-09 01:32:07,004 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:07,333 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1 HTTP/1.1" 200 43
+2021-08-09 01:32:07,336 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:07,336 root INFO base:32 response:{'errcode': 0, 'errmsg': 'created', 'id': 10086}
+2021-08-09 01:32:08,346 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:08,346 root INFO base:32 method:post,url:https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1
+2021-08-09 01:32:08,346 root INFO base:32 data:{'name': '研发部', 'name_en': 'YFB', 'parentid': 2, 'order': 2, 'id': 10086}
+2021-08-09 01:32:08,348 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:08,613 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1 HTTP/1.1" 200 196
+2021-08-09 01:32:08,616 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:08,616 root INFO base:32 response:{'errcode': 60008, 'errmsg': 'department existed, hint: [1628443928_197_dae74b1fc04b8cf479a731f3b3ad177f], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=60008'}
+2021-08-09 01:32:09,620 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:09,620 root INFO base:32 method:post,url:https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1
+2021-08-09 01:32:09,620 root INFO base:32 data:{'name': '上海研发中心32u4u35848854u584u43y594378', 'name_en': 'RDSH', 'parentid': 2, 'order': 3, 'id': 3}
+2021-08-09 01:32:09,624 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:09,946 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1 HTTP/1.1" 200 203
+2021-08-09 01:32:09,949 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:09,949 root INFO base:32 response:{'errcode': 60001, 'errmsg': 'department invalid length, hint: [1628443930_197_b26e15f372e43436db4f7e11ad9ce0a4], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=60001'}
+2021-08-09 01:32:10,958 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:10,958 root INFO base:32 method:get,url:https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=None&debug=1
+2021-08-09 01:32:10,958 root INFO base:32 data:None
+2021-08-09 01:32:10,960 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:11,251 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=None&debug=1 HTTP/1.1" 200 244
+2021-08-09 01:32:11,254 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:11,254 root INFO base:32 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Test', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '广州研发中心', 'parentid': 1, 'order': 1, 'name_en': 'RDGZ'}, {'id': 10086, 'name': '测试部', 'parentid': 2, 'order': 1, 'name_en': 'CSB'}]}
+2021-08-09 01:32:47,585 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.address`.
+2021-08-09 01:32:47,588 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `zh_CN`.
+2021-08-09 01:32:47,591 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+2021-08-09 01:32:47,593 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:47,595 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.bank`.
+2021-08-09 01:32:47,596 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2021-08-09 01:32:47,597 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+2021-08-09 01:32:47,598 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:47,601 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.color`.
+2021-08-09 01:32:47,602 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:47,603 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.company`.
+2021-08-09 01:32:47,605 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `zh_CN`.
+2021-08-09 01:32:47,607 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+2021-08-09 01:32:47,607 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:47,608 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.currency`.
+2021-08-09 01:32:47,609 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:47,611 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+2021-08-09 01:32:47,613 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:47,614 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:32:47,614 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.geo`.
+2021-08-09 01:32:47,615 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:47,615 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.internet`.
+2021-08-09 01:32:47,618 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `zh_CN`.
+2021-08-09 01:32:47,619 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:32:47,619 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.job`.
+2021-08-09 01:32:47,621 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `zh_CN`.
+2021-08-09 01:32:47,626 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+2021-08-09 01:32:47,627 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `zh_CN`.
+2021-08-09 01:32:47,629 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.misc`.
+2021-08-09 01:32:47,629 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+2021-08-09 01:32:47,630 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.person`.
+2021-08-09 01:32:47,633 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `zh_CN`.
+2021-08-09 01:32:47,641 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+2021-08-09 01:32:47,644 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+2021-08-09 01:32:47,647 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:32:47,647 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:32:47,647 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+2021-08-09 01:32:47,650 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `zh_CN`.
+2021-08-09 01:32:47,663 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:32:47,673 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2021-08-09 01:32:47,676 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2021-08-09 01:32:47,684 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2021-08-09 01:32:47,686 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2021-08-09 01:32:47,687 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2021-08-09 01:32:47,688 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2021-08-09 01:32:47,689 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2021-08-09 01:32:47,689 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2021-08-09 01:32:47,689 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2021-08-09 01:32:47,690 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2021-08-09 01:32:47,691 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2021-08-09 01:32:47,693 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2021-08-09 01:32:47,694 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2021-08-09 01:32:47,694 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2021-08-09 01:32:47,695 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2021-08-09 01:32:47,696 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2021-08-09 01:32:47,696 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2021-08-09 01:32:47,697 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2021-08-09 01:32:47,698 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:32:47,698 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2021-08-09 01:32:47,698 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2021-08-09 01:32:47,698 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2021-08-09 01:32:47,701 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2021-08-09 01:32:47,702 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:32:47,702 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2021-08-09 01:32:47,703 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2021-08-09 01:32:47,704 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2021-08-09 01:32:47,705 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2021-08-09 01:32:47,720 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2021-08-09 01:32:47,720 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2021-08-09 01:32:47,721 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2021-08-09 01:32:47,724 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2021-08-09 01:32:47,747 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2021-08-09 01:32:47,750 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2021-08-09 01:32:47,751 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:32:47,751 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:32:47,752 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2021-08-09 01:32:47,755 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2021-08-09 01:32:47,758 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:32:47,760 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:47,760 root INFO base:32 method:get,url:https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=ww52221eaa06300fdb&corpsecret=eeitMK8AjTs1YVP4S1mWLSPyu8BFpkjJ85S2WkdnaX8
+2021-08-09 01:32:47,760 root INFO base:32 data:None
+2021-08-09 01:32:47,767 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:48,098 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww52221eaa06300fdb&corpsecret=eeitMK8AjTs1YVP4S1mWLSPyu8BFpkjJ85S2WkdnaX8 HTTP/1.1" 200 277
+2021-08-09 01:32:48,101 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:48,101 root INFO base:32 response:{'errcode': 0, 'errmsg': 'ok', 'access_token': 'Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w', 'expires_in': 7200}
+2021-08-09 01:32:49,103 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:49,103 root INFO base:32 method:get,url:https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=10086&debug=1
+2021-08-09 01:32:49,104 root INFO base:32 data:None
+2021-08-09 01:32:49,106 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:49,370 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=10086&debug=1 HTTP/1.1" 200 199
+2021-08-09 01:32:49,373 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:49,373 root INFO base:32 response:{'errcode': 45009, 'errmsg': 'api freq out of limit, hint: [1628443969_197_205519cd95138cccb48880a2bcbe4017], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=45009'}
+2021-08-09 01:32:50,376 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:50,376 root INFO base:32 method:post,url:https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1
+2021-08-09 01:32:50,376 root INFO base:32 data:{'name': '测试部', 'name_en': 'CSB', 'parentid': 2, 'order': 1, 'id': 10086}
+2021-08-09 01:32:50,379 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:50,632 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1 HTTP/1.1" 200 199
+2021-08-09 01:32:50,635 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:50,635 root INFO base:32 response:{'errcode': 45009, 'errmsg': 'api freq out of limit, hint: [1628443970_197_6286e851832f23dbf998e74770e5549f], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=45009'}
+2021-08-09 01:32:51,732 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:51,732 root INFO base:32 method:post,url:https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1
+2021-08-09 01:32:51,732 root INFO base:32 data:{'name': '研发部', 'name_en': 'YFB', 'parentid': 2, 'order': 2, 'id': 10086}
+2021-08-09 01:32:51,734 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:52,011 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1 HTTP/1.1" 200 199
+2021-08-09 01:32:52,014 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:52,015 root INFO base:32 response:{'errcode': 45009, 'errmsg': 'api freq out of limit, hint: [1628443972_197_6bafc6863bc0e5ee67b87d808cb820df], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=45009'}
+2021-08-09 01:32:53,026 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:53,026 root INFO base:32 method:post,url:https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1
+2021-08-09 01:32:53,026 root INFO base:32 data:{'name': '上海研发中心32u4u35848854u584u43y594378', 'name_en': 'RDSH', 'parentid': 2, 'order': 3, 'id': 3}
+2021-08-09 01:32:53,029 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:53,292 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1 HTTP/1.1" 200 199
+2021-08-09 01:32:53,295 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:53,295 root INFO base:32 response:{'errcode': 45009, 'errmsg': 'api freq out of limit, hint: [1628443973_197_d25aa1149fbe052592e857a83257f2cb], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=45009'}
+2021-08-09 01:32:54,303 root INFO base:32 ---------------请求参数---------------
+2021-08-09 01:32:54,303 root INFO base:32 method:get,url:https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=None&debug=1
+2021-08-09 01:32:54,304 root INFO base:32 data:None
+2021-08-09 01:32:54,306 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:32:54,580 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=None&debug=1 HTTP/1.1" 200 215
+2021-08-09 01:32:54,583 root INFO base:32 ---------------响应参数---------------
+2021-08-09 01:32:54,583 root INFO base:32 response:{'errcode': 45009, 'errmsg': 'api freq out of limit, hint: [1628443974_197_eddc7f23ac2c395360ac86cd84ea9b14], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=45009', 'department': []}
+2021-08-09 01:47:47,858 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.address`.
+2021-08-09 01:47:47,862 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `zh_CN`.
+2021-08-09 01:47:47,866 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.automotive`.
+2021-08-09 01:47:47,868 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.automotive`. Locale reset to `en_US` for this provider.
+2021-08-09 01:47:47,871 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.bank`.
+2021-08-09 01:47:47,873 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2021-08-09 01:47:47,875 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.barcode`.
+2021-08-09 01:47:47,877 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.barcode`. Locale reset to `en_US` for this provider.
+2021-08-09 01:47:47,882 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.color`.
+2021-08-09 01:47:47,883 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.color`. Locale reset to `en_US` for this provider.
+2021-08-09 01:47:47,885 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.company`.
+2021-08-09 01:47:47,887 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `zh_CN`.
+2021-08-09 01:47:47,890 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.credit_card`.
+2021-08-09 01:47:47,890 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.credit_card`. Locale reset to `en_US` for this provider.
+2021-08-09 01:47:47,893 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.currency`.
+2021-08-09 01:47:47,895 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.currency`. Locale reset to `en_US` for this provider.
+2021-08-09 01:47:47,897 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.date_time`.
+2021-08-09 01:47:47,899 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.date_time`. Locale reset to `en_US` for this provider.
+2021-08-09 01:47:47,901 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:47:47,902 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.geo`.
+2021-08-09 01:47:47,903 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.geo`. Locale reset to `en_US` for this provider.
+2021-08-09 01:47:47,904 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.internet`.
+2021-08-09 01:47:47,907 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `zh_CN`.
+2021-08-09 01:47:47,910 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:47:47,910 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.job`.
+2021-08-09 01:47:47,913 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `zh_CN`.
+2021-08-09 01:47:47,919 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.lorem`.
+2021-08-09 01:47:47,920 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `zh_CN`.
+2021-08-09 01:47:47,923 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.misc`.
+2021-08-09 01:47:47,924 faker.factory DEBUG factory:101 Specified locale `zh_CN` is not available for provider `faker.providers.misc`. Locale reset to `en_US` for this provider.
+2021-08-09 01:47:47,926 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.person`.
+2021-08-09 01:47:47,930 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `zh_CN`.
+2021-08-09 01:47:47,940 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.phone_number`.
+2021-08-09 01:47:47,944 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `zh_CN`.
+2021-08-09 01:47:47,945 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:47:47,945 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:47:47,946 faker.factory DEBUG factory:94 Looking for locale `zh_CN` in provider `faker.providers.ssn`.
+2021-08-09 01:47:47,949 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `zh_CN`.
+2021-08-09 01:47:47,964 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `zh_CN` is not utilized for this provider.
+2021-08-09 01:47:47,976 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.address`.
+2021-08-09 01:47:47,980 faker.factory DEBUG factory:106 Provider `faker.providers.address` has been localized to `en_US`.
+2021-08-09 01:47:47,990 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.automotive`.
+2021-08-09 01:47:47,992 faker.factory DEBUG factory:106 Provider `faker.providers.automotive` has been localized to `en_US`.
+2021-08-09 01:47:47,992 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.bank`.
+2021-08-09 01:47:47,994 faker.factory DEBUG factory:101 Specified locale `en_US` is not available for provider `faker.providers.bank`. Locale reset to `en_GB` for this provider.
+2021-08-09 01:47:47,994 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.barcode`.
+2021-08-09 01:47:47,995 faker.factory DEBUG factory:106 Provider `faker.providers.barcode` has been localized to `en_US`.
+2021-08-09 01:47:47,995 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.color`.
+2021-08-09 01:47:47,996 faker.factory DEBUG factory:106 Provider `faker.providers.color` has been localized to `en_US`.
+2021-08-09 01:47:47,996 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.company`.
+2021-08-09 01:47:47,999 faker.factory DEBUG factory:106 Provider `faker.providers.company` has been localized to `en_US`.
+2021-08-09 01:47:48,000 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.credit_card`.
+2021-08-09 01:47:48,000 faker.factory DEBUG factory:106 Provider `faker.providers.credit_card` has been localized to `en_US`.
+2021-08-09 01:47:48,001 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.currency`.
+2021-08-09 01:47:48,002 faker.factory DEBUG factory:106 Provider `faker.providers.currency` has been localized to `en_US`.
+2021-08-09 01:47:48,002 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.date_time`.
+2021-08-09 01:47:48,004 faker.factory DEBUG factory:106 Provider `faker.providers.date_time` has been localized to `en_US`.
+2021-08-09 01:47:48,004 faker.factory DEBUG factory:113 Provider `faker.providers.file` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:47:48,005 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.geo`.
+2021-08-09 01:47:48,005 faker.factory DEBUG factory:106 Provider `faker.providers.geo` has been localized to `en_US`.
+2021-08-09 01:47:48,005 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.internet`.
+2021-08-09 01:47:48,008 faker.factory DEBUG factory:106 Provider `faker.providers.internet` has been localized to `en_US`.
+2021-08-09 01:47:48,009 faker.factory DEBUG factory:113 Provider `faker.providers.isbn` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:47:48,009 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.job`.
+2021-08-09 01:47:48,011 faker.factory DEBUG factory:106 Provider `faker.providers.job` has been localized to `en_US`.
+2021-08-09 01:47:48,012 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.lorem`.
+2021-08-09 01:47:48,014 faker.factory DEBUG factory:106 Provider `faker.providers.lorem` has been localized to `en_US`.
+2021-08-09 01:47:48,030 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.misc`.
+2021-08-09 01:47:48,031 faker.factory DEBUG factory:106 Provider `faker.providers.misc` has been localized to `en_US`.
+2021-08-09 01:47:48,031 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.person`.
+2021-08-09 01:47:48,035 faker.factory DEBUG factory:106 Provider `faker.providers.person` has been localized to `en_US`.
+2021-08-09 01:47:48,061 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.phone_number`.
+2021-08-09 01:47:48,065 faker.factory DEBUG factory:106 Provider `faker.providers.phone_number` has been localized to `en_US`.
+2021-08-09 01:47:48,068 faker.factory DEBUG factory:113 Provider `faker.providers.profile` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:47:48,068 faker.factory DEBUG factory:113 Provider `faker.providers.python` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:47:48,068 faker.factory DEBUG factory:94 Looking for locale `en_US` in provider `faker.providers.ssn`.
+2021-08-09 01:47:48,072 faker.factory DEBUG factory:106 Provider `faker.providers.ssn` has been localized to `en_US`.
+2021-08-09 01:47:48,075 faker.factory DEBUG factory:113 Provider `faker.providers.user_agent` does not feature localization. Specified locale `en_US` is not utilized for this provider.
+2021-08-09 01:47:48,077 root INFO base:36 ---------------请求参数---------------
+2021-08-09 01:47:48,078 root INFO base:36 method:get,url:https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid=ww52221eaa06300fdb&corpsecret=eeitMK8AjTs1YVP4S1mWLSPyu8BFpkjJ85S2WkdnaX8
+2021-08-09 01:47:48,078 root INFO base:36 data:None
+2021-08-09 01:47:48,089 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:47:48,411 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/gettoken?corpid=ww52221eaa06300fdb&corpsecret=eeitMK8AjTs1YVP4S1mWLSPyu8BFpkjJ85S2WkdnaX8 HTTP/1.1" 200 277
+2021-08-09 01:47:48,414 root INFO base:36 ---------------响应参数---------------
+2021-08-09 01:47:48,414 root INFO base:36 response:{'errcode': 0, 'errmsg': 'ok', 'access_token': 'Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w', 'expires_in': 7200}
+2021-08-09 01:47:49,420 root INFO base:36 ---------------请求参数---------------
+2021-08-09 01:47:49,421 root INFO base:36 method:get,url:https://qyapi.weixin.qq.com/cgi-bin/department/delete?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=10086&debug=1
+2021-08-09 01:47:49,421 root INFO base:36 data:None
+2021-08-09 01:47:49,423 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:47:49,759 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/delete?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=10086&debug=1 HTTP/1.1" 200 32
+2021-08-09 01:47:49,762 root INFO base:36 ---------------响应参数---------------
+2021-08-09 01:47:49,762 root INFO base:36 response:{'errcode': 0, 'errmsg': 'deleted'}
+2021-08-09 01:47:50,764 root INFO base:36 ---------------请求参数---------------
+2021-08-09 01:47:50,764 root INFO base:36 method:post,url:https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1
+2021-08-09 01:47:50,764 root INFO base:36 data:{'name': '测试部', 'name_en': 'CSB', 'parentid': 2, 'order': 1, 'id': 10086}
+2021-08-09 01:47:50,767 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:47:51,080 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1 HTTP/1.1" 200 43
+2021-08-09 01:47:51,083 root INFO base:36 ---------------响应参数---------------
+2021-08-09 01:47:51,083 root INFO base:36 response:{'errcode': 0, 'errmsg': 'created', 'id': 10086}
+2021-08-09 01:47:52,091 root INFO base:36 ---------------请求参数---------------
+2021-08-09 01:47:52,092 root INFO base:36 method:post,url:https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1
+2021-08-09 01:47:52,092 root INFO base:36 data:{'name': '研发部', 'name_en': 'YFB', 'parentid': 2, 'order': 2, 'id': 10086}
+2021-08-09 01:47:52,094 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:47:52,479 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1 HTTP/1.1" 200 196
+2021-08-09 01:47:52,481 root INFO base:36 ---------------响应参数---------------
+2021-08-09 01:47:52,482 root INFO base:36 response:{'errcode': 60008, 'errmsg': 'department existed, hint: [1628444872_197_b55662757322eb8e0d44273a4d16c85c], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=60008'}
+2021-08-09 01:47:53,491 root INFO base:36 ---------------请求参数---------------
+2021-08-09 01:47:53,491 root INFO base:36 method:post,url:https://qyapi.weixin.qq.com/cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1
+2021-08-09 01:47:53,491 root INFO base:36 data:{'name': '上海研发中心32u4u35848854u584u43y594378', 'name_en': 'RDSH', 'parentid': 2, 'order': 3, 'id': 3}
+2021-08-09 01:47:53,494 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:47:53,823 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "POST /cgi-bin/department/create?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&debug=1 HTTP/1.1" 200 203
+2021-08-09 01:47:53,826 root INFO base:36 ---------------响应参数---------------
+2021-08-09 01:47:53,827 root INFO base:36 response:{'errcode': 60001, 'errmsg': 'department invalid length, hint: [1628444873_197_020acdef9f137ac810c1061ab19f05c9], from ip: 220.207.94.55, more info at https://open.work.weixin.qq.com/devtool/query?e=60001'}
+2021-08-09 01:47:54,833 root INFO base:36 ---------------请求参数---------------
+2021-08-09 01:47:54,833 root INFO base:36 method:get,url:https://qyapi.weixin.qq.com/cgi-bin/department/list?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=None&debug=1
+2021-08-09 01:47:54,833 root INFO base:36 data:None
+2021-08-09 01:47:54,835 urllib3.connectionpool DEBUG connectionpool:971 Starting new HTTPS connection (1): qyapi.weixin.qq.com:443
+2021-08-09 01:47:55,126 urllib3.connectionpool DEBUG connectionpool:452 https://qyapi.weixin.qq.com:443 "GET /cgi-bin/department/list?access_token=Uf0MYC0Ma2l2YJD7PasK6rU5R0k_GTNgsdpAn5lM0WXWEzpD2GAdPaQ--hc83K8S8ui3ZlhFag835gJGiENmE8cZFsLitgi_r93788VJj1x6qejPgN0WxQS3GNQL-U9UviRWahfGRaSXH_cp_M3OjZ-01l7dJ2u-zrkv-aNDIP1CCkktwBTrWI7OtjAWdoq8VZle1R0OrTP5dGynYR6X2w&id=None&debug=1 HTTP/1.1" 200 244
+2021-08-09 01:47:55,129 root INFO base:36 ---------------响应参数---------------
+2021-08-09 01:47:55,129 root INFO base:36 response:{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Test', 'parentid': 0, 'order': 100000000}, {'id': 2, 'name': '广州研发中心', 'parentid': 1, 'order': 1, 'name_en': 'RDGZ'}, {'id': 10086, 'name': '测试部', 'parentid': 2, 'order': 1, 'name_en': 'CSB'}]}

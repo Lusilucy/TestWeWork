@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 
-from pages.base import Base
+from base import Base
 from pages.myerror import NotFoundError
 from utils.utils import Utils
 

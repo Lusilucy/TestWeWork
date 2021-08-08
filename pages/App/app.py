@@ -5,7 +5,7 @@ from appium import webdriver
 from appium.webdriver.common.mobileby import MobileBy
 from selenium.common.exceptions import NoSuchElementException
 
-from pages.base import Base
+from base import Base
 from pages.myerror import NoneMemberException
 
 

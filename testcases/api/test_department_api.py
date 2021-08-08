@@ -2,6 +2,7 @@
 import allure
 import pytest
 
+import base
 from pages.API.department_api import Department
 from utils.utils import Utils
 
