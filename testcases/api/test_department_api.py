@@ -1,5 +1,6 @@
 # 接口测试案例-部门
-import basesys
+import sys
+sys.path.append("/Users/lusi/PycharmProjects/TestWeWork/pages")
 import allure
 import pytest
 
