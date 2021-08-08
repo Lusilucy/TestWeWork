@@ -70,7 +70,8 @@ pip install -r requirements.txt
 
 [comment]: <> (    - csv：)
   
-- **5、工具：**[utils](utils/utils.py)  *封装解析yaml,json；fake数据等工具类方法*
+- **5、工具：**[utils](utils/utils.py)
+  - *封装解析yaml,json；fake数据等工具类方法*
 
 - **6、其他：**
   - 导览：[Readme](Readme.md)
@@ -79,8 +80,14 @@ pip install -r requirements.txt
 
 
 ## 3）Jenkins持续集成
-- 平台：
-
+- 平台
+  ![img_1.png](images/img_1.png)
+  
+- 预警提示
+  ![img.png](images/img.png)
+  
+- 测试报告
+  ![img_2.png](images/img_2.png)
 
 ## 4）Jira测试管理平台
 ### 1. 案例管理
@@ -90,4 +97,5 @@ pip install -r requirements.txt
 - 平台：
 
 ## 5）Jenkins持续交付
-- 平台：
+- 平台
+
