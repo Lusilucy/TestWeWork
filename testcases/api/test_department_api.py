@@ -2,7 +2,7 @@
 import allure
 import pytest
 import sys
-sys.path.append("../../../TestWeWork")
+sys.path.append("../../../TestWeWork/pages")
 
 from pages.API.department_api import Department
 from utils.utils import Utils
