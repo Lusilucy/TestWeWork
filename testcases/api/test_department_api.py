@@ -1,8 +1,8 @@
 # 接口测试案例-部门
+import basesys
 import allure
 import pytest
 
-from TestWeWork import base
 from pages.API.department_api import Department
 from utils.utils import Utils
 

@@ -1,9 +1,5 @@
-# 封装页面公共方法、配置环境
-import sys
+# 封装页面公共方法
 import os
-curPath = os.path.abspath(os.path.dirname(__file__))
-rootPath = os.path.abspath(os.path.dirname(curPath) + os.path.sep + ".")
-sys.path.append(rootPath)
 from datetime import datetime
 
 from jsonpath import jsonpath

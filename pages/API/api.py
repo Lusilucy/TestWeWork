@@ -3,7 +3,7 @@ from time import sleep
 
 import requests
 
-from base import Base
+from pages.base import Base
 
 
 class API(Base):
