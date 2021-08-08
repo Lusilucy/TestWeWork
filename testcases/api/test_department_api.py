@@ -1,6 +1,7 @@
 # 接口测试案例-部门
 import sys
 sys.path.append("/Users/lusi/.jenkins/workspace/TestWeWork_API/TestWeWork")
+# sys.path.append("/Users/lusi/PycharmProjects/TestWeWork")
 import allure
 import pytest
 
