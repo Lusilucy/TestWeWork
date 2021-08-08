@@ -1,9 +1,9 @@
 # 接口测试案例-部门
 import sys
-# import os
-# curPath = os.path.abspath(os.path.dirname(__file__))
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
 # rootPath = os.path.abspath(os.path.dirname(curPath) + os.path.sep + "..")
-# sys.path.append(curPath)
+sys.path.append(curPath)
 import allure
 import pytest
 # sys.path.append(rootPath)
