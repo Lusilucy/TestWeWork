@@ -24,5 +24,5 @@ class API(Base):
         self.logging("---------------响应参数---------------")
         self.logging(f"response:{r.json()}")
         # 规避调用接口限流问题
-        sleep(1)
+        sleep(5)
         return r

@@ -11,7 +11,7 @@ from pages.myerror import NoneMemberException
 
 class App(Base):
     # 日志存放路径
-    Base.set_log("../../logs/apptest.log")
+    Base.set_log("./logs/apptest.log")
 
     def start(self):
         """

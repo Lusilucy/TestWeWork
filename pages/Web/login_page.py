@@ -13,7 +13,7 @@ class LoginPage(Web):
         self.driver.get("https://work.weixin.qq.com/wework_admin/loginpage_wx")
         # 传入cookies
         try:
-            cookies = Utils.get_data("../../datas/conf_data/cookies_web.yaml")
+            cookies = Utils.get_data("./datas/conf_data/cookies_web.yaml")
             for cookie in cookies:
                 self.driver.add_cookie(cookie)
         except FileNotFoundError:

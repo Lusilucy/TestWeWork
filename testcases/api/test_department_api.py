@@ -1,7 +1,7 @@
 # 接口测试案例-部门
-# import sys
-# sys.path.append("/Users/lusi/.jenkins/workspace/TestWeWork_API/TestWeWork")
-# # sys.path.append("/Users/lusi/PycharmProjects/TestWeWork")
+import sys
+sys.path.append("/Users/lusi/.jenkins/workspace/TestWeWork_API/TestWeWork")
+# sys.path.append("/Users/lusi/PycharmProjects/TestWeWork")
 import allure
 import pytest
 
@@ -10,11 +10,11 @@ from utils.utils import Utils
 
 
 class TestDepartment:
-    create_data = Utils.get_data("../../datas/test_data/contact/department/create_department.yaml")
+    create_data = Utils.get_data("./datas/test_data/contact/department/create_department.yaml")
 
     def setup_class(self):
         # 获取token参数
-        token_data = Utils.get_data("../../datas/conf_data/access_token_api.yaml")
+        token_data = Utils.get_data("./datas/conf_data/access_token_api.yaml")
         corp_id = token_data["ID"]["Test"]
         corp_secret = token_data["SECRET"]["Contact"]
         # 实例化部门类
