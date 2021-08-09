@@ -1,7 +1,9 @@
 # app测试案例-成员
 import sys
-sys.path.append("/Users/lusi/.jenkins/workspace/TestWeWork_API/TestWeWork")
-# sys.path.append("/Users/lusi/PycharmProjects/TestWeWork")
+import os
+curPath = os.path.abspath(os.path.dirname(__file__))
+rootPath = os.path.abspath(os.path.dirname(curPath) + os.path.sep + "..")
+sys.path.append(rootPath)
 import allure
 import pytest
 
@@ -13,7 +15,7 @@ from utils.utils import Utils
 class TestWeWork:
     def setup_class(self):
         self.app = App()
-        self.eles = Utils.get_data("./datas/conf_data/eles_data.yaml")['App']['contact']['edit_member']
+        self.eles = Utils.get_data("../../datas/conf_data/eles_data.yaml")['App']['contact']['edit_member']
 
     def setup(self):
         self.app.start()
