@@ -7,7 +7,7 @@ from utils.utils import Utils
 
 
 class EditMember(App):
-    eles = Utils.get_data("./datas/conf_data/eles_data.yaml")['App']['contact']['edit_member']
+    eles = Utils.get_data("../../datas/conf_data/eles_data.yaml")['App']['contact']['edit_member']
 
     def click_back_button(self):
         """
@@ -211,7 +211,7 @@ class EditMember(App):
 
 
 class ChooseDepartment(App):
-    eles_d = Utils.get_data("./datas/conf_data/eles_data.yaml")['App']['contact']['edit_member']['department']
+    eles_d = Utils.get_data("../../datas/conf_data/eles_data.yaml")['App']['contact']['edit_member']['department']
 
     def choose_department(self, department_name):
         """

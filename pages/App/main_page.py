@@ -4,7 +4,7 @@ from utils.utils import Utils
 
 
 class MainPage(App):
-    eles = Utils.get_data("./datas/conf_data/eles_data.yaml")['App']['main']
+    eles = Utils.get_data("../../datas/conf_data/eles_data.yaml")['App']['main']
 
     def click_contact(self):
         """
