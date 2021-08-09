@@ -1,5 +1,9 @@
 # 封装web公共方法
+import configparser
+import os
+
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
 from selenium.webdriver.remote.webdriver import WebDriver
 
@@ -15,11 +19,33 @@ class Web(Base):
         # todo 设置启用不同浏览器，测试兼容性
         # driver=None，创建driver
         if driver is None:
-            self.driver = webdriver.Chrome()
+            # 读入配置文件
+            config = self.get_config()
+
+            # 控制是否采用无界面形式运行自动化测试
+            try:
+                using_headless = os.environ["using_headless"]
+            except KeyError:
+                using_headless = None
+                print('没有配置环境变量 using_headless, 按照有界面方式运行自动化测试')
+
+            chrome_options = Options()
+            if using_headless is not None and using_headless.lower() == 'true':
+                print('使用无界面方式运行')
+                chrome_options.add_argument("--headless")
+
+            self.driver = webdriver.Chrome(executable_path=config.get('driver', 'chrome_driver'),
+                                           options=chrome_options)
+
             self.driver.implicitly_wait(5)
         # 复用driver
         else:
             self.driver = driver
+
+    def get_config(self):
+        config = configparser.ConfigParser()
+        config.read(os.path.join(os.environ['HOME'], 'iselenium.ini'))
+        return config
 
     # 关闭浏览器
     def quit(self):
