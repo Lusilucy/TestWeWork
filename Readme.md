@@ -82,55 +82,51 @@ pip install -r requirements.txt
 ## 3）Jenkins持续集成
   ![img_12.png](images/img_12.png)
 ### 1、API
-#### &1 平台
-  - **接口测试**
+- 平台
   ![img_7.png](images/img_7.png)
   ![img_18.png](images/img_18.png)
-  - **压测**
-  ![img_14.png](images/img_14.png)
-  
-#### &2 预警提示
-  - **接口测试**
+- 预警提示
   ![img.png](images/img.png)
-  - **压测**
-  ![img_15.png](images/img_15.png)
-  
-#### &3 测试报告
-  - **接口测试**
+- 测试报告
   ![img.png](images/img_2.png)
   ![img_19.png](images/img_19.png)
-  - **压测**
-  ![img_16.png](images/img_16.png)
-  
   
 ### 2、App
-#### &1 平台
+- 平台
   - **打包构建app**
   ![img_1.png](images/img_1.png)
   ![img_13.png](images/img_13.png)
   - **测试app**
   ![img_5.png](images/img_5.png)
 
-#### &2 预警提示
+- 预警提示
   ![img_4.png](images/img_4.png)
   ![img_6.png](images/img_6.png)
 
-#### &3 测试报告
+- 测试报告
   ![img_3.png](images/img_3.png)
   
 ### 3、Web
-#### &1 平台
+- 平台
   ![img_8.png](images/img_8.png)
   
   - **可进行无界面运行**
   ![img_11.png](images/img_11.png)
   
-#### &2 预警提示
+- 预警提示
   ![img_10.png](images/img_10.png)
 
-#### &3 测试报告
+- 测试报告
   ![img_17.png](images/img_17.png)
   ![img_9.png](images/img_9.png)
+
+### 4、压测
+- 平台
+  ![img_14.png](images/img_14.png)
+- 预警提示
+  ![img_15.png](images/img_15.png)
+- 测试报告
+  ![img_16.png](images/img_16.png)
 
 ## 4）Jira测试管理平台
 ### 1. 案例管理
