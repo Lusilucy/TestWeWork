@@ -1,7 +1,5 @@
 # 接口测试案例-成员
-import sys
-sys.path.append("/Users/lusi/.jenkins/workspace/TestWeWork_API/TestWeWork")
-# sys.path.append("/Users/lusi/PycharmProjects/TestWeWork")
+import basesys
 import allure
 import pytest
 
@@ -10,11 +8,11 @@ from utils.utils import Utils
 
 
 class TestUserAPI:
-    delete_data = Utils.get_data("./datas/test_data/contact/user/delete_user.yaml")
+    delete_data = Utils.get_data("../../datas/test_data/contact/user/delete_user.yaml")
 
     def setup_class(self):
         # 获取token参数
-        token_data = Utils.get_data("./datas/conf_data/access_token_api.yaml")
+        token_data = Utils.get_data("../../datas/conf_data/access_token_api.yaml")
         corp_id = token_data["ID"]["Test"]
         corp_secret = token_data["SECRET"]["Contact"]
         # 实例化成员类
@@ -55,7 +53,7 @@ class TestUserAPI:
             # "external_position": "一二三四五六七八九十十一十二"
         }
         # todo 优化数据模版
-        create_data = Utils.get_data("./datas/test_data/contact/user/create_user.json", data)
+        create_data = Utils.get_data("../../datas/test_data/contact/user/create_user.json", data)
         print(create_data)
         # 创建成员
         r = self.user.create_user(create_data)
@@ -68,7 +66,7 @@ class TestUserAPI:
         print(r)
         assert r['errcode'] == 0
 
-    @pytest.mark.parametrize("id", [1, 3])
+    @pytest.mark.parametrize("id", [1, 10086])
     def test_get_list(self, id):
         # 获取部门成员详细列表
         r = self.user.get_list(id)
@@ -76,7 +74,7 @@ class TestUserAPI:
         # 判断获取成功
         assert r['errcode'] == 0
 
-    @pytest.mark.parametrize("id", [1, 3])
+    @pytest.mark.parametrize("id", [1, 10086])
     def test_get_sample_list(self, id):
         # 获取部门成员列表
         r = self.user.get_simple_list(id)
@@ -89,7 +87,7 @@ class TestUserAPI:
     def test_delete_user(self, id, exp_errcode, title):
         if id == "DaiShanChu":
             # 正例预埋数据
-            before_data = Utils.get_data("./datas/test_data/contact/user/create_user.json", self.delete_data['create'])
+            before_data = Utils.get_data("../../datas/test_data/contact/user/create_user.json", self.delete_data['create'])
             r = self.user.create_user(before_data)
             assert r['errcode'] == 0
 

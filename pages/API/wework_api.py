@@ -5,7 +5,9 @@ from pages.API.api import API
 class WeWork(API):
     _url = "https://qyapi.weixin.qq.com/cgi-bin"
 
-    def __init__(self, ID, SECRET):
+    def __init__(self, ID, SECRET, driver=None):
+        super().__init__(driver)
+
         # 继承WeWork,初始化即获取token值
         self.token = self.get_access_token(ID, SECRET)
 
