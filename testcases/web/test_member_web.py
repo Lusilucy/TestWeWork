@@ -1,5 +1,4 @@
 # web测试案例-成员
-import basesys
 from time import sleep
 
 from selenium.webdriver.common.by import By
