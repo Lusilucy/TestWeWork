@@ -21,5 +21,4 @@ class WeWork(API):
         url = f"https://qyapi.weixin.qq.com/cgi-bin/gettoken?corpid={ID}&corpsecret={SECRET}"
         r = self.request("get", url)
         token = r.json()["access_token"]
-        print(token)
         return token
