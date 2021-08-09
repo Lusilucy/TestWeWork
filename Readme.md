@@ -83,13 +83,23 @@ pip install -r requirements.txt
 ### 1、API
 - 平台
   ![img_12.png](images/img_12.png)
+  **接口测试**
   ![img_7.png](images/img_7.png)
+  **压测**
+  ![img_14.png](images/img_14.png)
   
 - 预警提示
+  **接口测试**
   ![img.png](images/img.png)
+  **压测**
+  ![img_15.png](images/img_15.png)
   
 - 测试报告
+  **接口测试**
   ![img_2.png](images/img_2.png)
+  **压测**
+  ![img_16.png](images/img_16.png)
+  
   
 ### 2、App
 - 平台
