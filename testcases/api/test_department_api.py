@@ -35,6 +35,8 @@ class TestDepartment:
         assert r['errcode'] == exp_errcode
 
     @allure.story("获取部门列表")
+    @allure.title("正例-获取部门列表成功")
     def test_get_department_list(self):
         r = self.department.get_department_list()
         print(r)
+        assert r['errcode'] == 0
