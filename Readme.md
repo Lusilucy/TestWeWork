@@ -127,6 +127,7 @@ pip install -r requirements.txt
   ![img_10.png](images/img_10.png)
 
 - 测试报告
+  ![img_17.png](images/img_17.png)
   ![img_9.png](images/img_9.png)
 
 ## 4）Jira测试管理平台
