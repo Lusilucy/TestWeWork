@@ -265,7 +265,7 @@ class TestUserAPI:
             # 正例预埋数据
             with allure.step("预埋数据(创建待删除成员)"):
                 before_data = self.delete_data['create']
-                r = self.user.create_user(before_data)
+                r = self.user.create_user(**before_data)
                 print(r)
             with allure.step("断言创建成功"):
                 assert r['errcode'] == 0
