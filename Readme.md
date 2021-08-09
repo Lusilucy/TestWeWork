@@ -80,9 +80,9 @@ pip install -r requirements.txt
 
 
 ## 3）Jenkins持续集成
+  ![img_12.png](images/img_12.png)
 ### 1、API
 - 平台
-  ![img_12.png](images/img_12.png)
   **接口测试**
   ![img_7.png](images/img_7.png)
   **压测**
