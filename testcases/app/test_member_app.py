@@ -8,6 +8,7 @@ from utils.utils import Utils
 
 
 # todo 数据封装
+@allure.feature("成员管理-app端测试案例")
 class TestWeWork:
     def setup_class(self):
         self.app = App()

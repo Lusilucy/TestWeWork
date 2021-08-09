@@ -8,7 +8,7 @@ from pages.Web.login_page import LoginPage
 from utils.utils import Utils
 
 
-@allure.feature("成员管理")
+@allure.feature("成员管理-web端测试案例")
 class TestUserweb:
     def setup_class(self):
         with allure.step("登录首页"):

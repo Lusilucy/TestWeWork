@@ -1,6 +1,3 @@
-import configparser
-import os
-
 import basesys
 import pytest
 

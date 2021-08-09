@@ -1,0 +1,35 @@
+-
+  - "正例-必输项校验-上送参数userid、name、department、mobile，创建成员成功，返回errcode为0"
+  - 0
+  -
+    email:
+    address:
+    is_leader_in_dept:
+-
+  - "正例-必输项校验-上送参数userid、name、department、email，创建成员成功，返回errcode为0"
+  - 0
+  - mobile:
+    address:
+    is_leader_in_dept:
+-
+  - "正例-选填项校验-上送所有必输参数及部分选填项，创建成员成功，返回errcode为0"
+  - 0
+  - {}
+
+-
+  - "反例-必输项校验-上送参数缺少userid，返回错误码为41009"
+  - 41009
+  - userid:
+-
+  - "反例-必输项校验-上送参数缺少name，返回错误码为60112"
+  - 60112
+  - name:
+-
+  - "反例-必输项校验-上送参数缺少department，返回错误码为40066"
+  - 40066
+  - department:
+-
+  - "反例-必输项校验-上送参数mobile、email均为空，返回错误码为60129"
+  - 60129
+  - mobile:
+    email:

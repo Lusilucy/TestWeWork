@@ -17,8 +17,10 @@ class API(Base):
         """
         self.logging("---------------请求参数---------------")
         self.logging(f"method:{method},url:{url}")
-        self.logging(f"data:{json}")
+        if method == "post":
+            self.logging("---------------入参---------------")
+            self.logging(f"{json}")
         r = requests.request(method, url, json=json)
         self.logging("---------------响应参数---------------")
-        self.logging(f"response:{r.json()}")
+        self.logging(f"{r.json()}")
         return r

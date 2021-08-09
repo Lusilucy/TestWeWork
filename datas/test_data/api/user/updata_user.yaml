@@ -1,0 +1,26 @@
+update:
+  -
+    - "正例-必输项校验-上送参数userid，更新成员成功，返回errcode为0"
+    - 0
+    -
+      userid: DaiGengXin
+  -
+    - "反例-必输项校验-上送参数缺少userid，返回errcode为60111"
+    - 60111
+    -
+      userid:
+  -
+    - "反例-必输项校验-上送参数userid不存在，返回errcode为60111"
+    - 60111
+    -
+      userid: DaiGengXin1
+  -
+    - "反例-必输项校验-上送参数name超长，返回errcode为40058"
+    - 40058
+    -
+      userid: DaiGengXin
+      name: "待删除fjoaeijfoijeaojfiornjoeainovveisnvpeiornvjoreirvpevirnvpienvierkfk就打开了那个卡啦"
+
+create:
+  userid: DaiGengXin
+  name: "待更新"
