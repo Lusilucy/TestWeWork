@@ -6,16 +6,16 @@ from pages.Web.web import Web
 
 # 通讯录页面
 class ContactPage(Web):
-    def click_add_member_button(self, n=2):
+    def click_add_member_button(self, n=1):
         """
         点击添加成员按钮
-        :param n:1：页面上部按钮（默认）；2：页面下部按钮；0：部门无成员时页面中间的按钮
+        :param n:1：页面上部按钮（默认）；2：页面下部按钮
         :return: 添加成员功能
         """
         # 等待页面元素加载
         self.wait_for_clickble(By.CSS_SELECTOR, ".ww_operationBar .js_add_member")
         # 循环点击添加成员按钮
-        self.wait_load_click(By.CSS_SELECTOR, ".js_add_member", By.ID, "username", n+1)
+        self.wait_load_click(By.CSS_SELECTOR, ".ww_operationBar .js_add_member", By.ID, "username", n+1)
         from pages.Web.contact_page.add_member import AddMember
         return AddMember(self.driver)
 

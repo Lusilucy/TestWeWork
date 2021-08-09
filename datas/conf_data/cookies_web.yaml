@@ -3,7 +3,7 @@
   name: wwrtx.vst
   path: /
   secure: false
-  value: sA-uscev9_MbSHJXjzlQ8XCHKExbeD1A6RYP_X89TOCX6jovcQ2ArFwPG1LzDkqaoOQdtjUO0n5oIJC2DAbwPhptRFXGG0BG2ComxEqZy2qqJWTL7BIdSS6LZf1kJlc_jGTqWdOdTXgVpX8nfG2-L411DZD7-pOMKwqutQRFs6bR-NL6UrrPfeGvJCnzH4FseZggnikyp4VgnL9te60K2WQXZbW7bJY6_XbVdyk46tgP4D9VT9qJDz1eTx9eLMAMpATFs2OXeJRrf0oekLNu-g
+  value: bKgNoxtqIo0aNoiYDQ5tGaUReoyUzPKMdOmqduU9GM33ipUgLa_GDnrqU6z7LWnT3CQsPU8t3xjzg0M5oSFnhs8xyziTFPGxF-HmS_vYCquthOW2cwp8IKHMRXLaMPuWhNHhQqph_o_veHNo6bPvbwFqLZY27sWRhiscQIb98mG2GKm-aQD24sslANOSB0ji52PYhMnX5flTFrwmRJKANXf0jTeIfAEHZ3jNBvI6A-G_shP1ZECjuKjvK0IV9QyFe0l9kuwIO-cYG2vvfusFrw
 - domain: .work.weixin.qq.com
   httpOnly: false
   name: wxpay.vid
@@ -21,13 +21,13 @@
   name: wwrtx.sid
   path: /
   secure: false
-  value: eslByxlK2A8f8_riHxktaSO6EbsQAlhSWuJABy8SiQRIWg9c4_7cI2A1vsPm2jQd
+  value: eslByxlK2A8f8_riHxktaVvBGbSQ8FfXCr-uNdoot5Pa0Kh9lH8TmwX-3o6K4xdT
 - domain: .work.weixin.qq.com
   httpOnly: false
   name: wwrtx.d2st
   path: /
   secure: false
-  value: a4962430
+  value: a618250
 - domain: .work.weixin.qq.com
   httpOnly: false
   name: wwrtx.cs_ind
@@ -35,19 +35,26 @@
   secure: false
   value: ''
 - domain: .qq.com
-  expiry: 1628309163
+  expiry: 1628481007
   httpOnly: false
   name: _gat
   path: /
   secure: false
   value: '1'
 - domain: .qq.com
-  expiry: 1628395519
+  expiry: 1628567367
   httpOnly: false
   name: _gid
   path: /
   secure: false
-  value: GA1.2.2132568647.1628160676
+  value: GA1.2.362523454.1628480947
+- domain: .qq.com
+  expiry: 1631016476
+  httpOnly: false
+  name: ptui_loginuin
+  path: /
+  secure: false
+  value: '421445227'
 - domain: .work.weixin.qq.com
   httpOnly: false
   name: wwrtx.vid
@@ -87,7 +94,7 @@
   name: wwrtx.refid
   path: /
   secure: false
-  value: '928960476304889'
+  value: '9289604762946590'
 - domain: .qq.com
   expiry: 1838740402
   httpOnly: false
@@ -122,14 +129,14 @@
   secure: false
   value: 1626664239,1626917722,1627013331,1627195134
 - domain: .work.weixin.qq.com
-  expiry: 1630901121
+  expiry: 1631072970
   httpOnly: false
   name: wwrtx.i18n_lan
   path: /
   secure: false
   value: zh
 - domain: .qq.com
-  expiry: 1691381119
+  expiry: 1691552967
   httpOnly: false
   name: _ga
   path: /

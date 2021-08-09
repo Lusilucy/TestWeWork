@@ -9,7 +9,7 @@ from utils.utils import Utils
 
 
 class Web(Base):
-    Base.set_log("./logs/webtest.log")
+    Base.set_log("../../logs/webtest.log")
 
     def __init__(self, driver: WebDriver = None):
         # todo 设置启用不同浏览器，测试兼容性

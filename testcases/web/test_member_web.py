@@ -1,7 +1,5 @@
 # web测试案例-成员
-import sys
-sys.path.append("/Users/lusi/.jenkins/workspace/TestWeWork_API/TestWeWork")
-# sys.path.append("/Users/lusi/PycharmProjects/TestWeWork")
+import basesys
 from time import sleep
 
 from selenium.webdriver.common.by import By
