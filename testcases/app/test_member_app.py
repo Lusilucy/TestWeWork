@@ -1,9 +1,5 @@
 # app测试案例-成员
-# import sys
-# import os
-# curPath = os.path.abspath(os.path.dirname(__file__))
-# rootPath = os.path.abspath(os.path.dirname(curPath) + os.path.sep + "..")
-# sys.path.append(rootPath)
+import basesys
 import allure
 import pytest
 
