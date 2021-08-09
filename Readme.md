@@ -80,14 +80,44 @@ pip install -r requirements.txt
 
 
 ## 3）Jenkins持续集成
+### 1、API
 - 平台
-  ![img_1.png](images/img_1.png)
+  ![img_12.png](images/img_12.png)
+  ![img_7.png](images/img_7.png)
   
 - 预警提示
   ![img.png](images/img.png)
   
 - 测试报告
   ![img_2.png](images/img_2.png)
+  
+### 2、App
+- 平台
+  **打包构建app**
+  ![img_1.png](images/img_1.png)
+  ![img_13.png](images/img_13.png)
+  **测试app**
+  ![img_5.png](images/img_5.png)
+
+- 预警提示
+  ![img_4.png](images/img_4.png)
+  ![img_6.png](images/img_6.png)
+
+- 测试报告
+  ![img_3.png](images/img_3.png)
+  
+### 3、Web
+- 平台
+  ![img_8.png](images/img_8.png)
+  
+  **可进行无界面运行**
+  ![img_11.png](images/img_11.png)
+  
+- 预警提示
+  ![img_10.png](images/img_10.png)
+
+- 测试报告
+  ![img_9.png](images/img_9.png)
 
 ## 4）Jira测试管理平台
 ### 1. 案例管理
