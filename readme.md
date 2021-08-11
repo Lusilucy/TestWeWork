@@ -90,12 +90,14 @@ pip install -r requirements.txt
   - Web：[web](testcases/web)
     - 测试【成员】功能案例[member](testcases/web/test_member_web.py)
   
+  - 压测：[stress](testcases/stress)
+    - jmeter压测脚本：[jmeter](testcases/stress/TestWeWork.jmx)
+    - 自动化测试bash脚本：[bash](testcases/stress/auto_stress_test.sh)
+  
   - 功能测试案例（文本）：
     - xmind：[企业微信测试案例](testcases/功能测试案例/企业微信测试案例.xmind)
     - xmind转csv工具：[xmind_csv](testcases/功能测试案例/xmind_csv.py)
 
-[comment]: <> (    - csv：)
-  
 - **5、工具：**[utils](utils/utils.py)
   - *封装解析yaml,json；fake数据等工具类方法*
 
