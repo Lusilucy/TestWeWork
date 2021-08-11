@@ -7,7 +7,33 @@ pip install -r requirements.txt
 ## 1）测试案例
 - [企业微信测试案例](testcases/功能测试案例/企业微信测试案例.xmind)
 
-## 2）项目代码
+## 2）Jira测试管理平台
+### 1、案例管理
+
+- 案例配置
+  - 案例导入格式转换代码：[xmind转csv代码](testcases/功能测试案例/xmind_csv.py)
+  - jira案例导入配置文件：[jira导入配置](testcases/功能测试案例/jira导入案例配置文件.txt)
+  
+- 平台：
+  - 模块及案例数：
+  ![img_23.png](images/img_23.png)
+  - 案例详情
+  ![img_20.png](images/img_20.png)
+  - 测试案例工作流
+  ![img_21.png](images/img_21.png)
+  - 测试案例创建界面
+  ![img_22.png](images/img_22.png)
+    
+### 2、Bug管理
+- 平台：
+  - Bug详情
+  ![img_24.png](images/img_24.png)
+  - Bug工作流
+  ![img_25.png](images/img_25.png)
+  - Bug创建界面
+  ![img_26.png](images/img_26.png)
+
+## 3）项目代码
 - github:[TestWeWork](https://github.com/Lusilucy/TestWeWork)
 
 [comment]: <> (- gitee:[TestWeWork]&#40;&#41;)
@@ -74,7 +100,7 @@ pip install -r requirements.txt
   - *封装解析yaml,json；fake数据等工具类方法*
 
 - **6、其他：**
-  - 导览：[Readme](Readme.md)
+  - 导览：[Readme](readme.md)
   - 配置python库：[requirements](requirements.txt)
 
 
@@ -128,13 +154,6 @@ pip install -r requirements.txt
 - 测试报告
   ![img_16.png](images/img_16.png)
 
-## 4）Jira测试管理平台
-### 1. 案例管理
-- 平台：
-- 案例导入格式转换：[xmind转csv代码](testcases/功能测试案例/xmind_csv.py)
-### 2. Bug管理
-- 平台：
 
-## 5）Jenkins持续交付
-- 平台
+
 

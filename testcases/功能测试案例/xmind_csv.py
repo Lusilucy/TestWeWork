@@ -18,7 +18,7 @@ class XmindToCsv():
 
     def write_csv(self, filename, case):
         '''写入csv文件，case为列表'''
-        headers = ["模块", "测试标题", "测试步骤", "预期结果"]
+        headers = ["模块", "测试点", "测试步骤", "预期结果"]
 
         with open(filename, 'w')as f:
             f_csv = csv.writer(f)
@@ -51,13 +51,17 @@ class XmindToCsv():
                         print('测试用例为空，请确认用例是否编写完成')
                     else:
                         case_point = self.xmind_title(xmind_content['topics'][i]['topics'][j])
-                        case_step = self.xmind_title(xmind_content['topics'][i]['topics'][j]['topics'][0])
-                        expected_result = self.xmind_title(xmind_content['topics'][i]['topics'][j]['topics'][0]['topics'][0])
                         case_title = "【" + tag + "】" + case_point
                         case.append(module_name)
                         case.append(case_title)
-                        case.append(case_step)
-                        case.append(expected_result)
+                        try:
+                            case_step = self.xmind_title(xmind_content['topics'][i]['topics'][j]['topics'][0])
+                            case.append(case_step)
+                            expected_result = self.xmind_title(xmind_content['topics'][i]['topics'][j]['topics'][0]['topics'][0])
+                            case.append(expected_result)
+                        except KeyError:
+                            pass
+
                         case_list.append(case)
         return case_list
 
@@ -67,8 +71,8 @@ class XmindToCsv():
 
 
 if __name__ == '__main__':
-    xmind_file = "/Users/lusi/PycharmProjects/TestWeWork/testcases/功能测试案例/企业微信测试案例.xmind"
-    csv_file = "/Users/lusi/PycharmProjects/TestWeWork/testcases/功能测试案例/企业微信测试案例.csv"
+    xmind_file = "/Users/lusi/PycharmProjects/TestWeWork/testcases/功能测试案例/企业微信测试案例导入-app.xmind"
+    csv_file = "/testcases/功能测试案例/企业微信测试案例导入-app1.csv"
     XmindToCsv().main(csv_file, xmind_file)
 
 

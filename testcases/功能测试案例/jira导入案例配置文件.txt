@@ -1,0 +1,31 @@
+{
+  "config.version" : "2.0",
+  "config.project.from.csv" : "false",
+  "config.encoding" : "UTF-8",
+  "config.email.suffix" : "@",
+  "config.field.mappings" : {
+    "测试步骤" : {
+      "existing.custom.field" : "10200"
+    },
+    "预期结果" : {
+      "existing.custom.field" : "10201"
+    },
+    "测试点" : {
+      "jira.field" : "summary"
+    },
+    "模块" : {
+      "jira.field" : "components"
+    }
+  },
+  "config.value.mappings" : { },
+  "config.delimiter" : ",",
+  "config.project" : {
+    "project.type" : null,
+    "project.key" : "WEWORK",
+    "project.description" : null,
+    "project.url" : null,
+    "project.name" : "企业微信",
+    "project.lead" : "lusi"
+  },
+  "config.date.format" : "dd/MMM/yy h:mm a"
+}
