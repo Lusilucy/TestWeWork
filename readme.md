@@ -4,8 +4,13 @@
 # 测试前请先配置python环境
 pip install -r requirements.txt
 ```
-## 1）测试案例
-- [企业微信测试案例](testcases/功能测试案例/企业微信测试案例.xmind)
+## 1）功能测试案例
+- xmind完整版：[企业微信测试案例](testcases/功能测试案例/企业微信测试案例.xmind)
+- 转换csv导入jira版：
+  - [案例导入-api](testcases/功能测试案例/企业微信测试案例导入-api.csv)
+  - [案例导入-web](testcases/功能测试案例/企业微信测试案例导入-web.csv)
+  - [案例导入-app1](testcases/功能测试案例/企业微信测试案例导入-app1.csv)
+  - [案例导入-app2](testcases/功能测试案例/企业微信测试案例导入-app2.csv)
 
 ## 2）Jira测试管理平台
 ### 1、案例管理
